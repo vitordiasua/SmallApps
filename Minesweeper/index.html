@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="index.css" />
+    
+</head>
+<body>
+    <div class="title" id="title">
+        <h1 class="ttl">MINESWEEPER</h1>
+    </div>
+    <div class="buttons_box" id="btn_box">
+        <button type="button" class="btn_easy" id="btn_easy" value="0" onclick="create_game(this.value)" >Easy</button>
+        <button type="button" class="btn_medium" id="btn_medium" value="1" onclick="create_game(this.value)">Medium</button>
+        <button type="button" class="btn_hard" id="btn_hard" value="2" onclick="create_game(this.value)">Hard</button>
+    </div>
+    <button class="back" id="back" onclick="back()">&#8592;</button>
+    <div class="container" id="container">
+        <div class="grid-header" id="grid-header">
+            <p class="mines_left" id="mines_left" value="-1">0 0</p>
+            <button class="restart" id="restart_btn" onmousedown="restart_down()" onmouseup="restart_up()">🗻</button>
+            <p class="timer" id="timer" value="0" >0 0 0</p>
+        </div>
+        <div id="grid">
+        </div>
+    </div>
+
+    
+    <!-- <div class="loss"> 
+        <p class="loss_text">You Died</p>
+    </div> -->
+
+    <script src="index.js"></script>
+</body>
+</html>

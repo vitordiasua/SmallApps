@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Binary to Decimal Converter</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="main">
+        <div class="titulo">Binary to Decimal Converter</div>
+        <form class="form">
+            <label for="binary">Binary:</label><br>
+            <input type="text" id="bin" name="binary"  style="width:100%;margin-top:10px;margin-bottom: 20px;height: 30px;"><br>
+            <label for="decimal" style="margin-top:50px">Decimal:</label><br>
+            <input type="text" id="dec" name="decimal" value="0" style="width:100%;margin-top:10px;height: 30px;" readonly>
+            <button type="button" class="botao" id="botao" onclick="converter()">Convert</button>
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

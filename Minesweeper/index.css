@@ -1,0 +1,199 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    margin: auto;
+    display: none;
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1.ttl{
+    font-size: 100px;
+    height: 200px;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons_box{
+    text-align: center;
+}
+
+.btn_easy{
+    border: none;
+    color :white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 30px 70px;
+    background-color: #1cc521;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(7, 190, 236, 0.719), 0 -6px 20px 0  rgba(7, 190, 236, 0.719);
+
+}
+
+.btn_medium{
+    border: none;
+    color :white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 30px 60px;
+    background-color: blue;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(217, 7, 236, 0.719), 0 -6px 20px 0 rgba(217, 7, 236, 0.719);
+    margin-left: 20px;
+}
+
+.btn_hard{
+    border: none;
+    color :white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 30px 70px;
+    background-color: red;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0, 253, 21, 0.719), 0 -6px 20px 0 rgba(0, 253, 21, 0.719);
+    margin-left: 20px;
+
+}
+
+.grid-container-easy{
+    margin-top:-9px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: rgb(44, 41, 41);
+    border: solid;
+}
+
+.grid-container-med{
+    margin-top:-9px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: rgb(44, 41, 41);
+    border: solid;
+}
+
+.grid-container-hard{
+    margin-top:-9px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: rgb(44, 41, 41);
+    border: solid;
+}
+
+.grid-item{
+    background-color: rgb(148, 145, 145);
+    border: solid ;
+    border-width: 2px;
+    border-color: rgb(202, 191, 191);
+    border-bottom-color: rgb(65, 65, 65);
+    border-right-color: rgb(65, 65, 65);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.back{
+    display: none;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: rgb(8, 121, 173);
+    font-size: 400%;
+    background-color: #52c42fc7;
+    width: 90px;
+    border: 0px;
+    border-radius: 20%;
+}
+
+.grid-header{
+    text-align: center;
+    border:solid;
+    height: 40px;
+    background-color: rgb(190, 187, 187);
+}
+
+.mines_left{
+    border: solid rgb(58, 57, 57);
+    background-color: rgb(32, 32, 32);
+    color: red;
+    margin-left: 3%;
+    margin-top: 5px;
+    width: 30px;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    float:left;
+}
+
+.restart{
+    margin-top: 2px;
+    padding:7px;
+    text-align: center;
+    margin-left: 45px;
+    float:left;
+    border-width: 2px;
+    border-color: rgb(58, 57, 57);
+}
+
+.timer{
+    border: solid rgb(58, 57, 57);
+    background-color: rgb(32, 32, 32);
+    color: red;
+    margin-right: 2%;
+    margin-top: 5px;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    float:right;
+}
+
+/*
+.loss {
+    background: black;
+    height: 200px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    margin-top: -400px;
+}
+.loss_text {
+    color: #ff0000;
+    font-family: OptimusPrinceps, sans-serif;
+    letter-spacing: 5px;
+    font-size: 8em;
+    font-weight: 400;
+    animation: fade-in 10s linear, text-zoom 5s linear;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@keyframes text-zoom {
+    0% { font-size: 5em; }
+    25% { font-size: 6em; }
+    50% { font-size: 7em; }
+    75% { font-size: 8em; }
+    100% { font-size: 8em; }
+}
+*/

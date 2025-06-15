@@ -1,0 +1,38 @@
+body{
+    background-color:lightblue;
+}
+
+.main{
+    border-color:gray;
+    border-style: solid;
+    border-radius: 25%;
+    margin:auto;
+    margin-top: 150px;
+    padding:25px;
+    vertical-align: auto;
+    width: 25%;
+    height: 50%;
+    background-color: lightpink;
+}
+
+.titulo{
+    margin-top:25px;
+    margin-left:15%;
+    padding:10px;
+    font-size:20px;
+}
+
+.form{
+    margin-top:50px;
+    margin-left:12.5%;
+    width:75%;
+}
+
+.botao{
+    margin:auto;
+    width: 100%;
+    height: 15%;
+    margin-top:30px;
+    border-color:  rgb(12, 183, 235);
+    background-color: aqua;
+}
